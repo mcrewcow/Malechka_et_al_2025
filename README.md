@@ -1,23 +1,12 @@
-# Unlocking the Epigenetic Switch of Regeneration by Targeted Suppression of DNMT3a in Retinal Ganglion Cells Restores Vision in Adult Mice with Optic Nerve Injury
+# Modulation of microglia activation after human donor retinal ganglion cell
+transplantation
 
 <br />
-Collaboration project with Dong Feng Chen lab on post optic nerve crush RGC regeneration. <br />
-Limited regenerative potential of the optic nerve in adult mammals hinders vision restoration after optic nerve trauma or disease. We identified DNA methyltransferase 3a (DNMT3a) as a potent inhibitor of optic nerve regeneration. Selective suppression of DNMT3a in the retinal ganglion cells (RGCs) promoted robust and functional optic nerve regeneration into the brain, restoring vision in adult mice with traumatic nerve injury. Analyses of DNMT3a deficient RGCs with single-nuclei RNA sequencing, genome-wide bisulfite and bulk RNA profiling revealed demethylation and reactivation of axon growth-related gene networks, while simultaneously deactivating the neurodegenerative signals in various subsets of RGCs.
-
-The analysis includes: <br />
-1. Datasets processing - standard Seurat processing, [GSEA pathway analysis](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/ssGSEA_heatmap.R), [Pathways into patterns normalization and 3D](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/3d_normalized_pathways.R), [Volcano plot](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/volcano_sc.R)  <br />
-2. RGC subtypes annotation and visualization - [Subtypes heatmap](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/heatmap_subtypes.R) <br />
-3. CellChat analysis for predicting cell communications - [Cellchat analysis](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/cellchat.R) <br />
-4. Bisulfite data visualization - [Plots](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/bisulfite.R) <br />
-5. Bulk data analysis - [GSEA](https://github.com/mcrewcow/RGC_Dnmt3a_pONC2d_paper/blob/main/GSEA_bulk.R) <br />
-
-The sequencing datasets are available under the following GEO numbers: <br />
--[Bulk](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229033) <br />
--[Bisulfite](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229034) <br />
--[Single-nuclei RNA seq](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE228627) <br />
+Baramov lab project on studying microglia activation. <br />
+Stem cell-derived retinal ganglion cell (RGC) transplantation therapy offers a promising avenue for restoring vision in patients with significant RGC loss. The major challenge in this therapeutic approach is ensuring the survival of transplanted human donor RGCs within the host retina. Here, we demonstrated the pivotal role of host retinal microglia and macrophages in the acceptance and survival of human donor cells. In addition, in the current study, we showed that it is possible to improve interaction between RGCs and microglia and the survival of human donor stem-cell-derived RGCs through modulation of the host retinal microglia. Pretreatment of human donor RGCs with annexin V and soluble FasL (sFasL) before transplantation significantly enhanced their acceptance and survival rate.   Detailed  analyses   of   the   host   mouse   retina   post-transplantation revealed morphological changes and activation patterns in microglia and macrophages. These findings indicate that sFasL and annexin V treatment can be used to improve the success rate of transplantation of neurons within the retina.
 
 If you would like to get the access to the datasets before they get public, or\
 If you have any questions regarding the data, analysis or further improvements, here are the contacts: <br />
 ekriukov@meei.harvard.edu - Bioinformatics + data availability\
-wailydia_tai@meei.harvard.edu - Contributing author\
-dongfeng_chen@meei.harvard.edu - PI
+vmalechka@meei.harvard.edu - First author\
+petr_baranov@meei.harvard.edu - PI
