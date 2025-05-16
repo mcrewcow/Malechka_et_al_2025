@@ -1,4 +1,4 @@
-# Modulation of microglia activation after human donor retinal ganglion cell transplantation
+# Improvement of human donor retinal ganglion cell survival through modulation of microglia
 <br />
 Baranov lab project on studying microglia activation.
 
