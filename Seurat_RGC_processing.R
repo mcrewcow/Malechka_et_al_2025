@@ -28,7 +28,7 @@ Olga_rgc <- RenameIdents(Olga_rgc, '0.5 day' = 'ONC <=4 days',
                          '7 days' = 'ONC >4 days',
                          '14 days' = 'ONC >4 days')
 Olga_rgc$Timepoint <- Olga_rgc@active.ident
-DimPlot(Olga_rgc, group.by = 'Timepoint', raster = F, split.by = 'Timepoint') + NoLegend()
+DimPlot(Olga_rgc, group.by = 'Timepoint', raster = F, split.by = 'Timepoint', ncol = 2) + NoLegend()
 DimPlot(Olga_rgc, group.by = 'Timepoint', raster = F)
 
 Olga_rgc$condition <- factor(
