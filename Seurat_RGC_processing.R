@@ -19,6 +19,15 @@ ProcessInt <- function(data.integrated){
   data.integrated <- RunUMAP(data.integrated, reduction = "pca", dims = 1:30)
 }
 Olga_rgc <- ProcessInt(Olga_rgc)
+
+Olga_rgc <- SetIdent(Olga_rgc, value= 'condition')
+Olga_rgc <- RenameIdents(Olga_rgc, '0.5 day' = 'ONC <=4 days',
+                         '1 day' = 'ONC <=4 days',
+                         '2 days' = 'ONC <=4 days',
+                         '4 days' = 'ONC <=4 days',
+                         '7 days' = 'ONC >4 days',
+                         '14 days' = 'ONC >4 days')
+Olga_rgc$Timepoint <- Olga_rgc@active.ident
 DimPlot(Olga_rgc, group.by = 'Timepoint', raster = F, split.by = 'Timepoint') + NoLegend()
 DimPlot(Olga_rgc, group.by = 'Timepoint', raster = F)
 
